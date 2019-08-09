@@ -54,24 +54,12 @@ axios
         const aName = document.createElement('span');
         aName.textContent = `By ${obj.authorName}`;
       
-
-
+        
         card.append(headline);
         card.append(author);
         author.append(imgContainer);
         imgContainer.append(image);
         author.append(aName);
-      
-    
-       
-       
-        
-        
-      
-    
-        
-       
-        
       
         return card;
       }
